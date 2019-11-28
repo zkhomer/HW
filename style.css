@@ -1,0 +1,99 @@
+blockquote {
+    margin: 0;
+}
+blockquote p {
+    padding: 20px;
+    background: #eee;
+    border-radius: 5px;
+}
+blockquote p::before {
+    content: '\201C'; /*вставил кавычку*/
+}
+blockquote p::after {
+    content: '\201D'; /*вставил кавычку*/
+}
+#title {
+    color: #4dff2f;
+}
+.yellow{
+    color: yellow;
+}
+#greycol{
+    color: grey;
+}
+div p:first-child{
+  color: red;
+}
+ul li a{
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+}
+.green:nth-child(1){
+    color: #4dff2f;
+}
+
+ul li{
+    list-style-type:none;
+}
+ul li{
+    font-size: 18px;
+}
+ul li:nth-child(even){
+    font-size: 20px;
+}
+li:before{
+    content:'-';
+}
+ul li:nth-child(3n+1){
+    background: yellow;
+}
+ul li:hover{
+    opacity: 0;
+}
+
+.title__android{
+    display: inline-block;
+    vertical-align: bottom;
+    color: #4dff2f;
+}
+.suptitle__android{
+    display: none;
+    vertical-align: bottom;
+    color: #4dff2f;
+}
+.android:hover .title__android{
+    display: none;
+}
+.android:hover .suptitle__android{
+    display: inline-block;
+}
+
+.android{
+    display: inline;
+}
+
+.bg-box{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 900px;
+    background-color: green;
+    background-image:url("img/House.jpg"),url("img/harp.png"),url("img/lamp.png"), url("img/Ёжик.png"),url("img/пончик.png");
+    background-position: center, bottom, top, left, right ;
+    background-repeat: no-repeat, repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 900px, 300px,50px,75px,75px, 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
